@@ -1,0 +1,8 @@
+# Producción en Netlify: exportación estática en la raíz del dominio (sin la ruta /ponte-guapa de GitHub Pages).
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "24"
+  NEXT_PUBLIC_SITE_URL = "https://ponte-guapa.netlify.app"

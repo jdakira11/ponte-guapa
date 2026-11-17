@@ -32,11 +32,9 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 - Imágenes: `src/assets/images/` (registro en `src/content/images.ts`)
 
 ### Publicar en Netlify (cuando se apruebe)
-```bash
-npm run build            # genera la carpeta .next/… → usar la exportación:
-npx next build           # con output: "export" deja el sitio en out/ si GITHUB_PAGES=1
-```
-Ver la sección «Netlify» más abajo una vez configurado.
+`netlify.toml` ya define la compilación (`npm run build`) y la carpeta publicada (`out/`, en la raíz del dominio).
+- Opción A: en Netlify, conectar el sitio *ponte-guapa* a este repositorio (Site configuration → Build & deploy → Link repository). Cada `git push` a `main` publica.
+- Opción B (manual): `npm run build` y arrastrar la carpeta `out/` a Deploys en Netlify.
 
 ## Pendiente del cliente
 - [ ] Confirmar horario (la web anterior decía «Todos los días, 9:00 a 20:00 hrs»).
