@@ -17,7 +17,7 @@
 ## Dirección de arte
 - Paleta (del logo): crema `#fbf7f2` / `#f3eae1`, café topo `#6f5b4a`, oscuro `#4d3f35`, beige `#dcc6b1`.
 - Tipografías (2): Parkinsans (títulos, sin cursiva: los realces van en color) + Jost (texto, cercana a la letra del logo).
-- Motivo gráfico: arco (curva de la «P» del logo) en la foto de portada.
+- Portada editorial: foto a sangre en la mitad derecha, nombre sobre degradado.
 - Tono: cercano, cuidado, simple. Pocas secciones, mucho aire.
 - Fotos: material propio del cliente (web anterior).
 
@@ -39,6 +39,7 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 ## Pendiente del cliente
 - [ ] Confirmar horario (la web anterior decía «Todos los días, 9:00 a 20:00 hrs»).
 - [ ] ¿Precios o duración de cada tratamiento? (hoy no se muestran).
+- [ ] Foto de Verónica en mayor resolución (la actual es de 600 px y en pantallas grandes se ve algo blanda).
 
 ## Historial de entregas
 | Fecha | Cambios |
@@ -47,3 +48,4 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 | 2026-11-17 | Títulos con Nata Sans (Google Fonts) |
 | 2026-11-17 | Títulos con Parkinsans (Google Fonts), en lugar de Nata Sans |
 | 2026-11-17 | Texto blanco al pasar el mouse en los botones con borde (Ver servicios, WhatsApp, Instagram) |
+| 2026-11-17 | Portada: foto de Verónica a sangre en la mitad derecha (sin arco); arriba a todo el ancho en móvil |

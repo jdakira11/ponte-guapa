@@ -4,11 +4,28 @@ import { hero } from "@/content/copy";
 import { images } from "@/content/images";
 import { CalendarIcon, ClockIcon, PinIcon } from "./icons";
 
+/** Portada editorial: texto a la izquierda y foto a sangre en la mitad derecha (arriba y a todo el ancho en móvil). */
 export function Hero() {
   return (
-    <section id="inicio" className="overflow-hidden bg-[radial-gradient(ellipse_at_85%_0%,#efe2d6,transparent_60%)]">
-      <div className="container-x grid items-center gap-14 py-14 md:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
-        <div className="text-center lg:text-left">
+    <section id="inicio" className="relative overflow-hidden lg:min-h-[calc(100svh-4.5rem)]">
+      <figure className="relative aspect-[5/4] w-full sm:aspect-[16/10] lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-[46%]">
+        <Image
+          src={images.veronica}
+          alt={`${siteConfig.stylist.name}, estilista de ${siteConfig.name}`}
+          fill
+          className="object-cover object-[50%_28%]"
+          sizes="(min-width: 1024px) 46vw, 100vw"
+          priority
+        />
+        <div aria-hidden className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-deep/75 to-transparent" />
+        <figcaption className="absolute bottom-5 left-5 text-paper md:bottom-8 md:left-8">
+          <span className="font-title block text-xl md:text-2xl">{siteConfig.stylist.name}</span>
+          <span className="mt-1 block text-[0.7rem] font-medium uppercase tracking-[0.22em] text-paper/85">{siteConfig.stylist.role}</span>
+        </figcaption>
+      </figure>
+
+      <div className="container-x relative flex items-center lg:min-h-[calc(100svh-4.5rem)]">
+        <div className="w-full py-12 text-center md:py-20 lg:w-[50%] lg:pr-14 lg:text-left">
           <p className="eyebrow">{hero.eyebrow}</p>
           <h1 className="display-lg mt-6 text-ink">
             {hero.titleStart} <em className="text-accent not-italic">{hero.titleEm}</em>
@@ -34,23 +51,6 @@ export function Hero() {
             </li>
           </ul>
         </div>
-
-        <figure className="mx-auto w-full max-w-[22rem] lg:max-w-[26rem]">
-          <div className="relative">
-            <div aria-hidden className="arch absolute inset-0 translate-x-4 -translate-y-4 border border-accent/40" />
-            <Image
-              src={images.veronica}
-              alt={`${siteConfig.stylist.name}, estilista de ${siteConfig.name}`}
-              className="arch relative aspect-[4/5] w-full object-cover object-[50%_30%] shadow-[0_30px_60px_-20px_rgba(77,63,53,0.35)]"
-              sizes="(min-width: 1024px) 26rem, 22rem"
-              priority
-            />
-          </div>
-          <figcaption className="mt-6 text-center">
-            <span className="font-title text-2xl text-ink">{siteConfig.stylist.name}</span>
-            <span className="mt-1 block text-xs font-medium uppercase tracking-[0.22em] text-accent">{siteConfig.stylist.role}</span>
-          </figcaption>
-        </figure>
       </div>
     </section>
   );
