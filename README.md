@@ -16,7 +16,7 @@
 
 ## Dirección de arte
 - Paleta (del logo): crema `#fbf7f2` / `#f3eae1`, café topo `#6f5b4a`, oscuro `#4d3f35`, beige `#dcc6b1`.
-- Tipografías (2): Cormorant Garamond (títulos) + Jost (texto, cercana a la letra del logo).
+- Tipografías (2): Nata Sans (títulos, sin cursiva: los realces van en color) + Jost (texto, cercana a la letra del logo).
 - Motivo gráfico: arco (curva de la «P» del logo) en la foto de portada.
 - Tono: cercano, cuidado, simple. Pocas secciones, mucho aire.
 - Fotos: material propio del cliente (web anterior).
@@ -44,3 +44,4 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 | Fecha | Cambios |
 |---|---|
 | 2026-11-17 | Primera versión: rediseño elegante, atención con hora en Ñuñoa (sin domicilio), dirección por WhatsApp |
+| 2026-11-17 | Títulos con Nata Sans (Google Fonts) |

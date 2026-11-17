@@ -11,7 +11,7 @@ export function Hero() {
         <div className="text-center lg:text-left">
           <p className="eyebrow">{hero.eyebrow}</p>
           <h1 className="display-lg mt-6 text-ink">
-            {hero.titleStart} <em className="text-accent">{hero.titleEm}</em>
+            {hero.titleStart} <em className="text-accent not-italic">{hero.titleEm}</em>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-ink-soft lg:mx-0">{hero.lead}</p>
           <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row lg:justify-start">

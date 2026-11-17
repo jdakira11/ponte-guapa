@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Cormorant_Garamond, Jost } from "next/font/google";
+import { Jost, Nata_Sans } from "next/font/google";
 import { RevealObserver } from "@/components/RevealObserver";
 import { getSiteUrl, siteConfig } from "@/config/site";
 import "./globals.css";
 
-// Títulos: serif fina y elegante. Texto: sans geométrica, cercana a la letra del logo.
-const title = Cormorant_Garamond({ variable: "--font-title-face", subsets: ["latin"], weight: ["400", "500"], style: ["normal", "italic"] });
+// Títulos: Nata Sans (fuente variable, sin cursiva). Texto: Jost, cercana a la letra del logo.
+const title = Nata_Sans({ variable: "--font-title-face", subsets: ["latin"] });
 const body = Jost({ variable: "--font-body-face", subsets: ["latin"], weight: ["300", "400", "500"] });
 
 export const metadata: Metadata = {

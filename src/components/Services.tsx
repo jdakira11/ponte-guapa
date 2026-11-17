@@ -26,7 +26,7 @@ export function Services() {
                   sizes="(min-width: 768px) 560px, 100vw"
                 />
                 <div className="mt-6 flex items-baseline gap-4">
-                  <span className="font-title text-xl italic text-accent">0{i + 1}</span>
+                  <span className="font-title text-xl text-accent">0{i + 1}</span>
                   <h3 className="font-title text-3xl text-ink">{s.name}</h3>
                 </div>
                 <p className="mt-3 max-w-md leading-relaxed text-ink-soft">{s.text}</p>

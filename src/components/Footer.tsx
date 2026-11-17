@@ -10,7 +10,7 @@ export function Closing() {
       <div className="container-x" data-reveal>
         <Image src={images.logo} alt="" className="mx-auto w-44" sizes="176px" />
         <h2 id="cierre-titulo" className="display-md mt-4 text-ink">
-          {closing.title} <em className="text-accent">{closing.titleEm}</em>
+          {closing.title} <em className="text-accent not-italic">{closing.titleEm}</em>
         </h2>
         <p className="mt-4 text-lg font-light text-ink-soft">{closing.text}</p>
         <a href={siteConfig.bookingUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-8">
