@@ -16,7 +16,7 @@ export function Steps() {
               style={{ "--reveal-delay": `${i * 120}ms` } as React.CSSProperties}
               className="text-center md:border-l md:border-paper/15 md:px-10 md:first:border-l-0"
             >
-              <span className="font-title text-6xl font-extralight leading-none text-metal">{i + 1}</span>
+              <span className="font-title text-6xl font-light leading-none text-metal">{i + 1}</span>
               <h3 className="font-title mt-5 text-[1.75rem] text-paper">{step.title}</h3>
               <p className="mx-auto mt-3 max-w-xs font-light leading-relaxed text-paper/80">{step.text}</p>
             </li>
