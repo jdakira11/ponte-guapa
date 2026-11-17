@@ -19,7 +19,7 @@ export function Hero() {
               <CalendarIcon className="size-4" />
               Agendar mi hora
             </a>
-            <a href="#servicios" className="btn btn-ghost text-ink">
+            <a href="#servicios" className="btn btn-ghost text-ink hover:text-card">
               Ver servicios
             </a>
           </div>

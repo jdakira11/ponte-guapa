@@ -29,13 +29,13 @@ export function Location() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row" data-reveal>
           {wa && (
-            <a href={whatsappLink(wa, "Hola, tengo una consulta sobre Ponte Guapa")} target="_blank" rel="noopener noreferrer" className="btn btn-ghost text-ink">
+            <a href={whatsappLink(wa, "Hola, tengo una consulta sobre Ponte Guapa")} target="_blank" rel="noopener noreferrer" className="btn btn-ghost text-ink hover:text-card">
               <WhatsAppIcon className="size-4" />
               {formatWhatsapp(wa)}
             </a>
           )}
           {siteConfig.social.instagram && (
-            <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-ghost text-ink">
+            <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-ghost text-ink hover:text-card">
               <InstagramIcon className="size-4" />
               {siteConfig.instagramHandle}
             </a>

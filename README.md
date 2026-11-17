@@ -46,3 +46,4 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 | 2026-11-17 | Primera versión: rediseño elegante, atención con hora en Ñuñoa (sin domicilio), dirección por WhatsApp |
 | 2026-11-17 | Títulos con Nata Sans (Google Fonts) |
 | 2026-11-17 | Títulos con Parkinsans (Google Fonts), en lugar de Nata Sans |
+| 2026-11-17 | Texto blanco al pasar el mouse en los botones con borde (Ver servicios, WhatsApp, Instagram) |
