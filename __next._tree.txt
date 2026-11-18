@@ -1,0 +1,5 @@
+:HL["/ponte-guapa/_next/static/chunks/2vc0hhttdiyli.css","style"]
+:HL["/ponte-guapa/_next/static/media/78eb2d37ccba2007-s.p.2csanl8cs02r-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/ponte-guapa/_next/static/media/b446242df0d8e354.p.0pzj8ih-_qa1n.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"xTOW_2uIGRH4tuHR5x1D7","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
