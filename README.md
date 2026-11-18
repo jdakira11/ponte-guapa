@@ -49,3 +49,4 @@ npm run deploy:pages     # publica la vista previa en GitHub Pages
 | 2026-11-17 | Títulos con Parkinsans (Google Fonts), en lugar de Nata Sans |
 | 2026-11-17 | Texto blanco al pasar el mouse en los botones con borde (Ver servicios, WhatsApp, Instagram) |
 | 2026-11-17 | Portada: foto de Verónica a sangre en la mitad derecha (sin arco); arriba a todo el ancho en móvil |
+| 2026-11-17 | «Hidratación de rizos» pasa a «Hidratación capilar», con foto nueva de antes/después |

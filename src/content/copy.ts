@@ -10,7 +10,7 @@ export const hero = {
   eyebrow: "Estética capilar · Ñuñoa",
   titleStart: "Cabello sano y hermoso,",
   titleEm: "en manos expertas",
-  lead: "Botox Capilar, Alisados, Hidratación de rizos y Cubre Canas con productos profesionales y atención personalizada, solo con hora agendada.",
+  lead: "Botox Capilar, Alisados, Hidratación capilar y Cubre Canas con productos profesionales y atención personalizada, solo con hora agendada.",
 };
 
 export const services: { id: string; name: string; text: string; image: ImageKey }[] = [
@@ -27,10 +27,10 @@ export const services: { id: string; name: string; text: string; image: ImageKey
     image: "alisado",
   },
   {
-    id: "rizos",
-    name: "Hidratación de rizos",
-    text: "Nutrición profunda para definir, hidratar y realzar la forma natural de tus rizos y ondas.",
-    image: "rizos",
+    id: "hidratacion",
+    name: "Hidratación capilar",
+    text: "Nutrición profunda que devuelve humedad, suavidad y brillo a tu cabello, dejándolo sano y fácil de peinar.",
+    image: "hidratacion",
   },
   {
     id: "canas",
@@ -41,7 +41,7 @@ export const services: { id: string; name: string; text: string; image: ImageKey
 ];
 
 export const steps = [
-  { title: "Elige tu tratamiento", text: "Botox Capilar, Alisado, Hidratación de rizos o Cubre Canas." },
+  { title: "Elige tu tratamiento", text: "Botox Capilar, Alisado, Hidratación capilar o Cubre Canas." },
   { title: "Agenda tu hora", text: "Escoge el día y la hora que más te acomoden en el calendario online." },
   { title: "Recibe la dirección", text: "Te enviamos por WhatsApp la dirección exacta en Ñuñoa para tu cita." },
 ];

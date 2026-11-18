@@ -9,7 +9,7 @@ export const siteConfig = {
   shortName: "Ponte Guapa",
   tagline: "Estética capilar en Ñuñoa",
   description:
-    "Botox Capilar, Alisados, Hidratación de rizos y Cubre Canas en Ñuñoa. Agenda tu hora online y recibe la dirección exacta por WhatsApp.",
+    "Botox Capilar, Alisados, Hidratación capilar y Cubre Canas en Ñuñoa. Agenda tu hora online y recibe la dirección exacta por WhatsApp.",
   locale: "es-CL",
   currency: "CLP",
   url: "https://ponte-guapa.netlify.app", // se sobrescribe con NEXT_PUBLIC_SITE_URL al publicar

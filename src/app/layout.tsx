@@ -10,7 +10,7 @@ const body = Jost({ variable: "--font-body-face", subsets: ["latin"], weight: ["
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: `${siteConfig.name} · Botox Capilar, Alisados, Rizos y Cubre Canas en Ñuñoa`,
+  title: `${siteConfig.name} · Botox Capilar, Alisados, Hidratación y Cubre Canas en Ñuñoa`,
   description: siteConfig.description,
   openGraph: {
     title: `${siteConfig.name} · ${siteConfig.tagline}`,

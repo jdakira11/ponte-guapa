@@ -4,9 +4,9 @@ import veronica from "@/assets/images/veronica.webp";
 import alisado from "@/assets/images/servicio-alisado.webp";
 import botox from "@/assets/images/servicio-botox.webp";
 import canas from "@/assets/images/servicio-canas.webp";
-import rizos from "@/assets/images/servicio-rizos.webp";
+import hidratacion from "@/assets/images/servicio-hidratacion.webp";
 
 /** Todas las imágenes son material propio del cliente (tomadas de su web anterior). */
-export const images = { logo, logoMark, veronica, alisado, botox, canas, rizos };
+export const images = { logo, logoMark, veronica, alisado, botox, canas, hidratacion };
 
 export type ImageKey = keyof typeof images;
